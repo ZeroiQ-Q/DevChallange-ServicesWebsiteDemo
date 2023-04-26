@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 42px 52px 0px 52px;
+}
+.navbar {
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading_label {
+  font: normal 800 36px heebo, sans-serif;
+}
+.nav-options {
+  display: flex;
+}
+.nav-options a {
+  padding-left: 26px;
+  text-decoration: none;
+  font: normal 500 23px poppins, sans serif;
+  color: black;
+}
+
+.short_notice_section {
+  width: 543px;
+  margin-top: 96px;
+  margin-left: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.descriptive_notice {
+  font: normal 500 18px poppins, sans serif;
+  color: #2d9cdb;
+}
+.notice_label {
+  font: normal 500 48px poppins, sans serif;
+  color: #333333;
+}
+.image_area {
+  margin-top: 42px;
+}
+.hero_image {
+  border-radius: 18px;
+  width: 100%;
+  object-fit: scale-down;
+}
+.values_notice_section {
+  margin-top: 42px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-left: 16%;
+}
+.values {
+  font-weight: 400;
+  color: #333333;
+}
+.email_label {
+  font: normal 500 14px poppins, sans serif;
+  color: #828282;
+  margin-bottom: 8px;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.join_button:hover {
+  cursor: pointer;
+  background: #2d9bdbdf;
+}
+
+.services_section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-top: 200px;
+  margin-left: 8%;
+}
+.services_label {
+  width: 346px;
+  font-size: 36px;
+}
+
+.services_card_section {
+  display: flex;
+  gap: 2%;
+}
+.card {
+  padding: 2.5% 2%;
+  height: 330px;
+  width: 273px;
+  border-radius: 24px;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  scale: 1.05;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover .get_started_button {
+  background: #2d9cdb;
+  color: #ffffff;
+  transition: all 0.15s;
+}
+.dev_icons {
+  height: 50px;
+  width: 55px;
+  margin-bottom: 5%;
+}
+.dev_type_label {
+  font: normal 700 24px poppins, sans-serif;
+  color: #333333;
+  margin-bottom: 3%;
+}
+.dev_info_description {
+  font: normal 400 16px poppins, sans-serif;
+  color: #4f4f4f;
+  margin-bottom: 9%;
+}
+.get_started_button:hover {
+  cursor: pointer;
+}
+.get_started_button {
+  font: normal 500 16px poppins, sans-serif;
+  padding: 9px 13px;
+  color: #828282;
+  background: #e0e0e0;
+  border-radius: 12px;
+  border: none;
+}
+.design_label {
+  width: 448px;
+  margin-top: 157px;
+  font-size: 36px;
+  margin-bottom: 9px;
+}
+.style_image_area {
+  display: flex;
+  gap: 20px;
+}
+.style_image {
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 12px;
+}
+
+.style_small_label {
+  margin-top: 10px;
+  font: normal 300 14px poppins, sans-serif;
+  color: #828282;
+}
+.style_product_label {
+  font: normal 500 24px poppins, sans-serif;
+}
+.first_image {
+  margin-top: 120px;
+}
+.see_more:hover {
+  cursor: pointer;
+}
+.see_more {
+  text-align: right;
+  margin-top: 90px;
+  font: normal 500 24px poppins, sans-serif;
+  color: #2d9cdb;
+}
+
+.team_area {
+  margin-left: 8%;
+  margin-top: 200px;
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+.team_label_heading {
+  font: normal 500 18px poppins, sans-serif;
+  color: #eb5757;
+}
+.team_label_36px {
+  font-size: 36px;
+}
+.team_description {
+  font-size: 16px;
+  font-weight: 400;
+}
+.team_image_section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.team_image {
+  width: 100%;
+  max-width: 250px;
+  object-fit: scale-down;
+  border-radius: 24px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.about_team_section {
+  max-width: 280px;
+}
+.testimonial_section {
+  margin-left: 8%;
+  margin-bottom: 200px;
+}
+.testimonial {
+  font-size: 36px;
+  max-width: 937px;
+  margin-bottom: 49px;
+}
+.design_area {
+  margin-left: 8%;
+}
+.reviewer_card {
+  display: flex;
+  gap: 16px;
+}
+.reviewer_image {
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+}
+.name {
+  font: normal 500 24px poppins, sans-serif;
+  color: #333333;
+}
+.work {
+  font: normal 500 18px poppins, sans-serif;
+  color: #828282;
+}
+.reviewer_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background: #100e1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+.footer_content_elements {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_nav-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer_nav-options a {
+  text-decoration: none;
+  font: normal 400 18px poppins, sans-serif;
+  color: #ffffff;
+}
+.footer_contact_section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer_contact_section .heading_label {
+  color: #ffffff;
+}
+.social_handles {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.socials {
+  height: 24px;
+  width: 24px;
+}
+.email_area {
+  position: relative;
+  width: 100%;
+}
+.email {
+  font: normal 500 18px poppins, sans serif;
+  width: 223px;
+  padding: 15px 112px 15px 15px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+.join_button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font: normal 500 18px poppins, sans serif;
+  padding: 11px 28px;
+  border-radius: 12px;
+  background: #2d9cdb;
+  color: #f2f2f2;
+  border: none;
+}
+.footer_email_label {
+  color: #f2f2f2;
+}
+.dev-info {
+  text-align: center;
+  color: #f2f2f2;
+  font: normal 500 14px poppins, sans serif;
+  padding-bottom: 24px;
+}
+.nav-options img {
+  display: none;
+}
+@media (max-width: 450px) {
+  body {
+    padding: 13px 10px 0px 10px;
+  }
+  .see_more {
+    text-align: LEFT;
+    margin-top: 35px;
+    font-size: 18px;
+  }
+
+  .team_area {
+    margin-left: 0px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 100px;
+  }
+  .nav-options img {
+    display: block;
+  }
+  .first_image {
+    margin-top: 0px;
+  }
+  .style_product_label {
+    font-size: 18px;
+  }
+  .nav-options a {
+    display: none;
+  }
+  .heading_label {
+    font-size: 24px;
+  }
+  .short_notice_section {
+    width: 272px;
+    gap: 0px;
+    margin-left: 49px;
+  }
+  .descriptive_notice {
+    font-size: 12px;
+  }
+  .notice_label {
+    font-size: 24px;
+  }
+  .image_area {
+    margin-top: 15px;
+  }
+  .values_notice_section {
+    margin-top: 22px;
+    width: 291px;
+    gap: 33px;
+    margin-left: 49px;
+  }
+  .values {
+    font-size: 12px;
+  }
+  .email_label {
+    font-size: 10px;
+  }
+  .email {
+    width: 164px;
+    font-size: 14px;
+  }
+  .join_button {
+    font-size: 14px;
+  }
+  .services_section {
+    gap: 46px;
+    margin-top: 100px;
+    margin-left: 49px;
+  }
+  .services_card_section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -30px;
+  }
+  .services_label {
+    width: 259px;
+    font-size: 24px;
+  }
+  .card {
+    padding: 49px 34px 43px 34px;
+    height: 330px;
+    width: 273px;
+    border-radius: 24px;
+  }
+  .dev_icons {
+    margin-bottom: 35px;
+  }
+  .dev_type_label {
+    margin-bottom: 24px;
+  }
+  .dev_info_description {
+    margin-bottom: 30px;
+  }
+  .design_label {
+    width: 267px;
+    margin-top: 100px;
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-left: 49px;
+  }
+  .design_area {
+    margin-left: 0px;
+  }
+  .style_image_area {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .style_image_section {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .style_small_label {
+    font-size: 12px;
+  }
+  .team_label_36px {
+    font-size: 36px;
+  }
+  .team_description {
+    font-size: 16px;
+  }
+  .team_image_section {
+    gap: 10px;
+  }
+  .second {
+    gap: 10px;
+  }
+
+  .testimonial_section {
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+  .testimonial {
+    font-size: 24px;
+    max-width: 351px;
+    margin-bottom: 25px;
+  }
+  .reviewer_card {
+    gap: 20px;
+  }
+  .reviewer_image {
+    height: 70px;
+    width: 70px;
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 650px;
+    background: #100e1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 36px;
+  }
+  .footer_content_elements {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 42px;
+  }
+  .footer_email_label {
+    font-size: 10px;
+    color: #828282;
+    margin-bottom: 0px;
+  }
+  .footer_email {
+    width: 291px;
+  }
+}
